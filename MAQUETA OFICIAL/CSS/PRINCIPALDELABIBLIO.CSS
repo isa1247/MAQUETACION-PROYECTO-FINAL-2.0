@@ -1,0 +1,132 @@
+ 
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .top-bar {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .secondary-bar {
+            background-color: #444;
+            color: #fff;
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .centered {
+            justify-content: center; 
+        }
+
+        .logo img {
+            padding: auto;
+            position: relative;
+            text-align: center;
+            width: 180px;
+            height: 50px;
+        }
+
+        nav ul, .secondary-bar ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li, .secondary-bar ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a, .secondary-bar ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /* Estilos de la galería */
+        .gallery {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .gallery-container {
+            display: flex;
+            overflow: hidden;
+            justify-content: center;
+        }
+
+        .gallery-container img {
+            max-width: 100%;
+            transition: transform 0.3s ease-in-out;
+            
+        }
+
+        .gallery-controls {
+            margin-top: 20px;
+        }
+
+        .prev-button, .next-button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .prev-button:hover, .next-button:hover {
+            background-color: #555;
+        }
+
+        .text-boxes {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .text-box {
+            background-color: #eee;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            border-radius: 5px;
+            width: 250px;
+        }
+
+        .text-box h3 {
+            font-size: 18px;
+        }
+
+        .text-box p {
+            font-size: 14px;
+        }
+
+        .gallery-container {
+            display: flex;
+            overflow: hidden;
+        }
+        
+        .gallery-container img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease-in-out;
+            left:20px
+        }
+        
+        .gallery-controls {
+            text-align: center;
+        }
+        
+        .gallery-container img {
+            margin-left:30px;
+        }
